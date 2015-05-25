@@ -1,2 +1,3 @@
 # unbound_ad_blocker
-create an ad blocking hosts file for unbound 
+
+Aggerates several hosts block lists into a config file for unbound
