@@ -28,3 +28,9 @@ File.open("local-blocking-data.conf", "w") do |fh|
     fh << %{local-data: "#{d} AAAA ::1"\n}
   end
 end
+
+File.open("hosts", "w") do |fh|
+  domains.each do |d|
+    fh << %{0.0.0.0 #{d}\n}
+  end
+end
